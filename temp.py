@@ -3,6 +3,5 @@ def celsius_to_fahrenheit(celsius):
 
 
 if __name__ == "__main__":
-    c = float(input("Enter temperature in Celsius: "))
-    f = celsius_to_fahrenheit(c)
-    print("Temperature in Fahrenheit:", f)
+    # Optional manual test only
+    print("Temperature in Fahrenheit:", celsius_to_fahrenheit(0))
